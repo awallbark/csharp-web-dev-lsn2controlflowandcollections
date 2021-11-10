@@ -6,12 +6,12 @@ namespace StringExercises
     {
         static void Main(string[] args)
         {
-            //string sentence = "I would not, could not, in a box. I would not, could not with a fox. " +
-            //"I will not eat them in a house. I will not eat them with a mouse.";
+            string sentence = "I would not, could not, in a box. I would not, could not with a fox. " +
+            "I will not eat them in a house. I will not eat them with a mouse.";
 
-            //string[] newSentence = sentence.Split(' ');
+            string[] newSentence = sentence.Split(' ');
 
-            //Console.WriteLine(string.Join(",", newSentence));
+            Console.WriteLine(string.Join(",", newSentence));
 
             string sentence2 = "I would not, could not, in a box. I would not, could not with a fox. I will not eat them in a house. I will not eat them with a mouse.";
 
