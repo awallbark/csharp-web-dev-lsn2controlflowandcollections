@@ -8,13 +8,13 @@ namespace ListExercises
     {
         static void Main(string[] args)
         {
-            //List<int> numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            List<int> numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-            //Console.WriteLine(SumEvenNumbers(numbers));
+            Console.WriteLine(SumEvenNumbers(numbers));
 
-            //List<string> fiveLetters = new List<string>() { "cat", "dog", "house", "dance", "sleep", "bed", "car" };
+            List<string> fiveLetters = new List<string>() { "cat", "dog", "house", "dance", "sleep", "bed", "car" };
 
-            //PrintFiveLetterWords(fiveLetters);
+            PrintFiveLetterWords(fiveLetters);
 
 
             //Bonus Mission 3.75 Take the string from the split practice, move it into a list
